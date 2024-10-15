@@ -11,5 +11,3 @@ window.firebase = {
 window.firebase.initializeFirebase = function(config) {
   return initializeApp(config);
 };
-
-console.log("firebase is available on window:", window.firebase);
