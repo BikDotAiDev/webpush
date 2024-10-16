@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: 'firebase-bundle.js',  // Output bundle filename
     path: path.resolve(__dirname, 'dist'),  // Output directory (can change based on your setup)
-    library: 'firebase',  // Global variable name when you include the bundle in a script
+    library: 'firebaseUtils',  // Global variable name when you include the bundle in a script
     libraryTarget: 'var',  // Defines how the library will be exposed
   },
   module: {
